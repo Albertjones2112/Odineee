@@ -106,7 +106,7 @@ object GhostBlocks : Module(
                 return true
             }
         }
-        return false
+        return true
     }
 
     private val enderchests = mapOf(
